@@ -1,0 +1,1526 @@
+body{
+    background-color: #000!important;
+}
+
+.espacio{
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    min-height: 600px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 40px #000;
+    overflow: hidden!important;
+}
+
+.espacioPrincipal{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    
+    box-shadow: 0px 10px 40px #000;
+    display: block;
+}
+
+.Entrada{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    
+    background-color: black;
+    z-index: 50;
+   
+}
+
+.logo1{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 22.5%;
+    z-index: 2;
+}
+
+.botonInicio{
+    position: absolute;
+    width: 35%;
+    left: 30%;
+    top: 40%;
+}
+
+.botonesAdicionales{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 35%;
+    right: 0%;
+    z-index: 35;
+}
+
+.regresar{
+    position: absolute;    
+    left: 8%;
+    width: 20%;
+    top: -40%;
+}
+
+.compartir{
+    position: absolute;
+    left: 76%;
+    width: 20%;
+    top: -40%;
+}
+
+.session{
+    position: absolute;
+    left: 76%;
+    width: 20%;
+    top: 77%;
+}
+
+.contenido{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.Slider{
+    width: 100%;
+    
+}
+
+.slider{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 10;
+}
+
+.circulo{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    z-index:10;
+}
+
+.logoPrincipal{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    width: 60%;
+    z-index: 15;
+}
+
+.fondoPrincipal{
+    position: inherit;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 26%;
+    z-index: 15;
+}
+
+.fondoSecundario{
+    position: static;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 85%;
+    z-index: 15;
+}
+
+.botonesPrincipales{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20%;
+    z-index: 35;
+}
+
+.FondoSer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.extra{
+    position: relative;
+    bottom: 0%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.fondoBotonesP{
+    position: absolute;
+    top: -27%;
+    z-index: -1;
+    width: 100%;
+    height: 127%;
+    display: none;
+}
+
+
+.contacto{
+    position: absolute;
+    top: 10%;
+    width: 18%;
+    left: 5%;
+}
+
+.redes{
+    position: absolute;
+    top: 0%;
+    width: 18%;
+    left: 64%;
+}
+
+.servicio{
+    position: absolute;
+    top: -7%;
+    width: 18%;
+    left: 44%;
+}
+
+.BN{
+    position: absolute;
+    top: 28%;
+    width: 16%;
+    left: 45%;
+}
+.conocenos{
+    position: absolute;
+    top: 0%;
+    width: 18%;
+    left: 25%;
+}
+
+.galeria{
+    position: absolute;
+    top: 10%;
+    width: 18%;
+    left: 80%;
+}
+.Politicas{
+    position: absolute;
+    top: 95%;
+    width: 18%;
+    left: 80%;
+    z-index: 90;
+}
+
+.espacioContacto{
+    position: absolute;
+   /* bottom: -100%;*/
+    display: none;
+    top: 60%;
+    left: 0%;
+    width: 100%;
+    height: 35%;
+    z-index: 15;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+} 
+.fondoR{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+
+.cerrar{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 18%;
+    z-index: 5;
+}
+
+.cerrar2{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    width: 17%;
+    z-index: 0;
+}
+.cerrar3{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    width: 13%;
+    z-index: 0;
+}
+.cerrarR{
+    position: absolute;
+    top: -10%;
+    right: 45%;
+    width: 10%;
+    z-index: 5;
+}
+.cerrarC{
+    position: absolute;
+    top: -10%;
+    right: 43%;
+    width: 10%;
+    z-index: 5;
+}
+
+.botonEspacio{
+    width: 17%;
+    z-index: 48;
+}
+
+.whatsapp{
+    position: absolute;
+    width: 23%;
+    top: -14%;
+    left: 17%;  
+}
+
+.telefono{
+    position: absolute;
+    width: 19%;
+    top: 10%;
+    left: 43%;
+}
+
+.correo{
+    position: absolute;
+    top: -14%;    
+    width: 23%;
+    left: 70%;
+}
+
+.foto1{
+    position: absolute;
+    width: 19%;
+    top: -14%;
+    left: 43%;
+}
+
+.foto2{
+    position: absolute;
+    width: 23%;
+    top: -14%;    
+    left: 72%;
+}
+
+.telefono2{
+    position: absolute;
+    width: 19%;
+    top: 15%;
+    left: 75%;
+}
+
+.correo2{
+    position: absolute;
+    width: 19%;
+    top: 15%;
+    left: 10%;
+}
+
+.ubicacion{
+    position: absolute;    
+    width: 19%;
+    top: 40%;
+    left: 66%;
+}
+/*----------Contacto Nueva version---------------------*/ 
+.letraContato{
+    position: absolute;
+    width: 75%;
+    top: 9%;
+    left: 12%;
+}
+.letralinea1{
+    position: absolute;
+    width:35%;
+    top: 31%;
+    left: 20%;
+}
+.letralinea2{
+    position: absolute;
+    width: 35%;
+    top: 45%;
+    left: 20%;
+}
+.letralinea3{
+    position: absolute;
+    width: 35%;
+    top: 57%;
+    left: 20%;
+}
+.telefonoNV1{
+    position: absolute;
+    width: 22%;
+    top: 27%;
+    left: 65%;
+}
+.telefonoNV2{
+    position: absolute;
+    width: 22%;
+    top: 40%;
+    left: 65%;
+}
+.telefonoNV3{
+    position: absolute;
+    width: 22%;
+    top: 53%;
+    left: 65%;
+}
+.correoNV{
+    position: absolute;
+    width: 22%;
+    top: 75%;
+    left: 20%;
+}
+.whatsappNV{
+    position: absolute;
+    width: 22%;
+    top: 75%;
+    left: 63%;
+}
+
+/*-----------------aqui termina contacto nueva version------------------------*/ 
+
+/*---letras conoceme----*/
+.logoConoceme{
+    position: absolute;
+    width: 75%;
+    top: 9%;
+    left: 12%;
+}
+.letrasConoceme{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 2%;
+}
+/*---fin de letras conoceme----*/
+
+/*---letras compartir----*/
+.letrasCompartir{
+    position: absolute;
+    width: 75%;
+    top: 9%;
+    left: 12%;
+}
+/*---fin de letras conoceme----*/
+
+/*---letras compartir----*/
+.letrasGaleria{
+    position: absolute;
+    width: 70%;
+    top: 12%;
+    left: 15%;
+}
+/*---fin de letras conoceme----*/
+
+.espacioUbicacion{
+    position: absolute;
+    bottom: -100%;
+    left: 0%;
+    width: 100%;
+    height: 35%;
+    z-index: 10;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.espacioUbicacion2{
+    position: absolute;
+    bottom: -100%;
+    left: 0%;
+    width: 100%;
+    height: 35%;
+    z-index: 10;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.facebook{
+    position: absolute;
+    width: 19%;
+    top: 15%;
+    left: 4%;
+}
+
+.youtube{
+    position: absolute;    
+    width: 19%;
+    top: 15%;
+    left: 78%;
+}
+
+.linkedin{
+    position: absolute;
+    width: 20.5%;
+    top: 9%;
+    left: 55%;
+}
+
+.twiter{
+    position: absolute;
+    width: 20%;
+    top: -14%;
+    left: 80%;
+}
+
+.sitio{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    width: 16%;
+}
+
+.instagram{
+    position: absolute;
+    width: 19%;
+    top: 9%;
+    left: 28%;
+}
+
+.espacioPoliticas{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    overflow-y: scroll;
+    background-color: #000000;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.pc{
+    position:absolute;
+    top: 4%;
+    z-index:1;
+    width:100%;
+    padding: 5%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden!important}
+
+h1+p{color:white;
+    font-size:20px!important;
+    text-align:justify;
+}
+
+.espacioConocenos{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    overflow-y: scroll;
+    background-color: #000000;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.espacioContacto1{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    overflow-y: scroll;
+    background-color: #000000;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.espacioRedes{
+    position: absolute;
+    display: none;
+  /*  bottom: -100%;*/
+    top: 60%;
+    left: 0%;
+    width: 100%;
+    height: 35%;
+    z-index: 15;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.espacioServicios{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../content/ImagenN/servicios/1.jpg);
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: black;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+/*-------------------Servicios-----------------------*/
+.ServiciosImpresion{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosDiseñoGrafico{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosInteriorismo{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosDisIndustral{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosIlustracion{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosStands{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+/*-------------------------servicios dentro de impresion ----------------------------------------*/
+.ServiciosOffset{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosEcosolvente{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosSerigrafia{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosSerigrafia{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosCama{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosLatex{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ServiciosCorte{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+/*-------------------------galerias de servicios-------------------------*/
+.GalIlustracion{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.GaleIlustracion{
+    top: 70%;
+    left:  60%;
+}
+
+.GalStands{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.GaleStands{
+    top: 70%;
+    left:  60%;
+}
+
+.GalDisenoGrafico{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.GaleDisenoGrafico{
+    top: 130%;
+    left:  60%;
+}
+
+.GalImpresion{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.GaleImpresion{
+    top: 70%;
+    left:  60%;
+}
+
+.GalInteriorismo{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.GaleInteriorismo{
+    top: 70%;
+    left:  60%;
+}
+.GalDisenoIndustrial{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url('../ImagenN/servicios/fondo.jpg');
+    padding: 1%;
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.GaleDisenoIndustrial{
+    top: 70%;
+    left:  60%;
+}
+/*-------------------------------fin de servicios-----------------------------------*/
+/*.espacioServicios{
+    position:absolute;
+    top: 100%;
+    background-image: url(../content/ImagenN/servicios/1.jpg);
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 10;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}*/
+
+.espacioBN{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: black;
+    z-index: 46;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.espacioLogin{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    overflow-y: scroll;
+    background-color: #000000;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.espacioBanner1{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: black;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.servicios{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    background-color: dodgerblue;
+    
+}
+
+.conocenos1{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.productos{
+    display: inline-block;
+    width: 100%;
+    padding: 2%;
+    z-index: 4;
+}
+
+.video{
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    padding: 2%;
+    z-index: 4;
+    
+}
+.productos1{
+    display: inline-block;
+    width: 100%;
+    padding: 2%;
+    z-index: 4;
+}
+.productos1{padding-bottom:35%!important}
+
+.espacioCompartir{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 101%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.BCompartir{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.FondoGaleria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.Galfoto{
+    position: absolute;
+    width: 22%;
+    left: 38%;
+    top: 37%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.Galvideo{
+    position: absolute;
+    width: 22%;
+    left: 38%;
+    top: 65%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.Galtest{
+    position: absolute;
+    width: 22%;
+    left: 38%;
+    top: 77%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/*--------------Botones servicios-----*/
+.BotonesServicios{
+    position: absolute;
+    width: 25%;
+}
+
+.ServImpresion{
+    top: 32%;
+    left:  38%;
+}
+.WhatsImpresion{
+    top: 70%;
+    left:  20%;
+}
+.ServDiseño{
+    top: 74%;
+    left:  38%;
+}
+.WhatsDiseño{
+    top: 130%;
+    left:  20%;
+}
+
+.ServInteriorismo{
+    top: 115%;
+    left:  38%;
+}
+.WhatsInteriorismo{
+    top: 70%;
+    left:  20%;
+}
+.ServDiseñoIndustrial{
+    top: 156%;
+    left:  38%;
+}
+.WhatsDiseñoIndustrial{
+    top: 70%;
+    left: 20%;
+}
+.ServIlustracion{
+    top: 199%;
+    left:  38%;
+}
+.WhatsIlustracion{
+    top: 70%;
+    left:  20%;
+}
+.ServSustratos{
+    top: 242%;
+    left:  38%;
+}
+.WhatsSustratos{
+    top: 70%;
+    left:  20%;
+}
+/*----fin de botones servicios----*/
+
+/*----botones impresion----*/
+.ServOffset{
+    top: 5%;
+    left:  10%;
+}
+.ServCamara{
+    top: 25%;
+    left:  10%;
+}
+.ServSerigrafia{
+    top: 8%;
+    left:  38%;
+}
+.ServEcosolvente{
+    top: 22%;
+    left:  38%;
+}
+.ServLatex{
+    top: 5%;
+    left:  65%;
+}
+.ServCorte{
+    top: 25%;
+    left:  64%;
+}
+/*----fin de botones impresion----*/
+
+.whatsappCompartir{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 28%;
+}
+
+.facebookCompartir{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 28%;
+}
+
+.correoCompartir{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 28%;
+}
+
+.qr {
+    position: absolute;
+    top: 65%;
+    left: 33%;
+    width: 40%;
+}
+
+.espacioGaleria{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.EspacioVideos{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: #000000;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+
+}
+.EspacioTestimonios{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    overflow-y: scroll;
+    background-color: #000000;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+
+}
+
+.video1,.video{padding-bottom:10%}
+.video1{padding-top:15%!important}
+.video1,.video {
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    padding: 1%;
+}
+
+.espacioPlayeras{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    background: black;    
+    overflow-y: scroll;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.IPlayeras{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.IPlayeras2{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.espacioTazas{
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.ITazas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    
+}
+.espacio_compracasa{
+    position: absolute;
+    background-color: black;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    overflow: scroll;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.espacio_preventa{
+    position: absolute;
+    background-color: black;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    overflow: scroll;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+
+.espacio_rentacasa{
+    position: absolute;
+    background-color: black;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    overflow: scroll;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.espacio_encuentrainquilino{
+    position: absolute;
+    background-color: black;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    overflow: scroll;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.espacio_vendecasa{
+    position: absolute;
+    background-color: black;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    overflow: scroll;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.espacio_emprende{
+    position: absolute;
+    background-color: black;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    overflow: scroll;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.espacioGorras{
+    position: absolute;
+    background-color: black;
+    bottom: -100%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    z-index: 36;
+    overflow: scroll;
+    -webkit-transition: all 2S ease;
+    -moz-transition: all 2S ease;
+    -o-transition: all 2S ease;
+    transition: all 2S ease;
+}
+.IGorras{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.sliderContenedor{
+    width: 100%;
+    z-index: 3;
+}
+
+.muestra{
+    display: inline-block;
+    width: 100%;
+    padding: 2%;
+    z-index: 4;
+    background-color: #fff;
+}
+
+.detalleservicios{
+    display: inline-block;
+    width: 100%;
+    padding: 2%;
+    z-index: 4;
+    height: 800px;
+}
+
+.muestra1{
+    padding: 2% 2% 35% 2%;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.5); 
+}
+
+
+/* ipad vertical y horizontqal */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .espacio{
+        z-index: 1;
+        width: 400px;
+        min-height: 600px;
+        
+        border-style: none;
+        border-color: #000000;
+        background-color: #0071BC;
+        padding-bottom: 430px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .espacio{
+        z-index: 1;
+        width: 400px;
+        min-height: 600px;
+        
+        border-style: none;
+        border-color: #000000;
+        background-color: #0071BC;
+        padding-bottom: 430px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+    .espacio{
+        z-index: 1;
+        width: 100vw;
+        min-height: 100vh;
+    }
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) { 
+    .espacio{
+        z-index: 1;
+        width: 400px;
+        min-height: 600px;
+        
+    }
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+    .espacio{
+        z-index: 1;
+        width: 100vw;
+        min-height: 100vh;
+    }
+}

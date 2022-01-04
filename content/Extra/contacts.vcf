@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Martha Patiño
+N:Patiño;Martha;;;
+item1.TEL:+52 55 2405 4553
+item1.X-ABLabel:Celular
+item2.ORG:Ideen4all
+item2.X-ABLabel:unknown
+CATEGORIES:myContacts
+END:VCARD

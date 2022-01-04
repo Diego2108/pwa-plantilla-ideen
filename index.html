@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="author" content="GE">
+  <link rel="icon" type="content/image/png" sizes="16x16" href="./content/ImagenN/icono/favicon-16x16.png">
+  <link rel="icon" type="content/image/png" sizes="32x32" href="./content/ImagenN/icono/favicon-32x32.png">
+  <title>Ideen4all</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" charset="utf-8">
+  <meta property="og:title" content="Ideen4all"/>
+  <meta property="og:url" content="https://ideen4all.netlify.app/"/>
+  <meta property="og:image" content="https://ideen4all.netlify.app//content/ImagenN/portada-face.jpg"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Aplicacion Web Progresiva"/>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://ideen4all.netlify.app/"/>
+  <meta name="twitter:title" content="Ideen4all">
+  <meta name="twitter:description" content="Aplicacion Web Progresiva">
+  <meta name="twitter:image" content="https://ideen4all.netlify.app//content/ImagenN/portada-face.jpg">
+  <meta name="twitter:creator" content="@GE">
+  <meta name="twitter:site" content="@GE">
+  <meta title="Ideen4all" />
+  <meta name="description" content="Aplicacion Web Progresiva" />
+  <meta name="author" content="GE" />
+  <meta name="theme-color" content="#000">
+  <meta property="fb:app_id" content="845859622127156"/>
+  <link rel="icon" type="image/png" sizes="60x60" href="./content/ImagenN/icono/apple-touch-icon-iphone.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./content/ImagenN/icono/android-chrome-96x96.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="./content/ImagenN/icono/android-chrome-128x128.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./content/ImagenN/icono/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="./content/ImagenN/icono/android-chrome-256x256.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-title" content="Ideen4all"/>
+  <meta name="application-name" content="Ideen4all">
+  <link rel="apple-touch-startup-image" href=""><!--152x152-->
+  <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="./content/ImagenN/icono/apple-touch-icon-iphone.png" />
+  <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="./content/ImagenN/icono/android-chrome-120x120.png" />
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./content/ImagenN/icono/apple-touch-icon-180x180.png" />
+  <link rel="stylesheet" href="./content/Extra/normalize.css">
+  <link rel="stylesheet" href="./content/Extra/bootstrap.min.css">
+  <link rel="stylesheet" href="./content/Extra/style.css">
+  <link rel="manifest" href="./content/manifest.json">
+  <link rel="stylesheet" href="./content/Extra/swiper.min.css">
+  <link rel="stylesheet" href="./content/Extra/style_login.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <style>
+          html, body {
+          position: relative;
+          height: 100%;
+        }
+        body {
+          background: #EEE;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background-image: url(./content/ImagenN/barra-blanca.png);
+         
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+        </style>
+    <script src="./content/Extra/jquery.min.js"></script>
+<script src="./content/Extra/bootstrap.min.js"></script>
+<script src="./content/Extra/scripts.js"></script>
+    <style> 
+            input[type=text] {          
+                opacity: .89;
+                background-color:rgb(44, 43, 43);
+            }
+        </style>
+</head>
+<body>
+<audio class="accion" preload="none">
+        <source src="./content/Extra/.mp3" type="audio/mpeg" /> 
+</audio> 
+    <div class="espacio">
+        <div class="espacioPrincipal">
+            <img class="logoPrincipal" src="./content/ImagenN/logotipo/ideall-cs6.png" />
+            <img class="fondoSecundario" src="./content/ImagenN/fondo-home.png" />  -->
+            <img class="fondoPrincipal" src="./content/ImagenN/barra-blanca.png" />
+            <!--<a onclick="espacioPoliticas()">
+                    <img class="Politicas" src="./content/Imagen/botones/politicas.png" />
+                </a>-->
+                                
+            <div class="botonesAdicionales">
+
+                <a href="./content/Extra/contacts.vcf">
+                    <img class="regresar" src="./content/ImagenN/botones/agregar.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/agregar.png'" onmouseout="this.src='./content/ImagenN/botones/agregar.png'"/>
+                </a>
+                <a onclick="espacioCompartir()">
+                    <img class="compartir" src="./content/ImagenN/botones/compartir.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/compartir.png'" onmouseout="this.src='./content/ImagenN/botones/compartir.png'"/>
+                </a>
+                <br>
+             <!--   <a href="#">
+                    <img class="session" src="./content/Imagen/botones/WEB.png" />
+                </a>-->
+            </div>
+            
+
+            <div class="contenido">
+                <div class="Slider">
+                    <img class="img1 slider" alt="alt img1" height="100%" src="./content/ImagenN/slider/1.png" />
+                    <img class="img2 slider" alt="alt img2" height="100%" src="./content/ImagenN/slider/2.png" />
+                    <img class="img3 slider" alt="alt img3" height="100%" src="./content/ImagenN/slider/3.png" />
+                    <img class="img4 slider" alt="alt img4" height="100%" src="./content/ImagenN/slider/4.png" />
+                    <img class="img5 slider" alt="alt img5" height="100%" src="./content/ImagenN/slider/5.png" />
+                    <img class="img6 slider" alt="alt img6" height="100%" src="./content/ImagenN/slider/6.png" />
+                    <img class="img7 slider" alt="alt img7" height="100%" src="./content/ImagenN/slider/7.png" />
+                    <img class="img8 slider" alt="alt img8" height="100%" src="./content/ImagenN/slider/8.png" />
+                    <img class="img8 slider" alt="alt img8" height="100%" src="./content/ImagenN/slider/9.png" />
+
+                    
+                    
+                    
+                </div>
+                
+            </div>
+
+            <div class="botonesPrincipales">                
+                <a onclick="espacioServicios()">
+                    <img class="contacto" src="./content/ImagenN/botones/servicios.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/servicios.png'" onmouseout="this.src='./content/ImagenN/botones/servicios.png'"/>
+                </a>
+                <a onclick="espacioRedes()">
+                    <img class="redes" src="./content/ImagenN/botones/redes.png" 
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/redes.png'" onmouseout="this.src='./content/ImagenN/botones/redes.png'"/>
+                </a>                
+                <a onclick="espacioConocenos()">
+                    <img class="servicio" src="./content/ImagenN/botones/conoceme.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/conoceme.png'" onmouseout="this.src='./content/ImagenN/botones/conoceme.png'"/>
+                </a>
+                          
+                <a onclick="espacio_rentacasa()">
+                    <img class="galeria" src="./content/ImagenN/botones/galeria.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/galeria.png'" onmouseout="this.src='./content/ImagenN/botones/galeria.png'"/>
+                </a>
+                <a onclick="espacioContacto1()">
+                    <img class="conocenos" src="./content/ImagenN/botones/contacto.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/contacto}.png'" onmouseout="this.src='./content/ImagenN/botones/contacto.png'"/> 
+                </a>
+                
+            </div>
+
+            <div class="espacioContacto1">
+               <img src="./content/ImagenN/contacto/fondo-sin-botones.jpg" class="FondoSer">
+               <img src="./content/ImagenN/contacto/letra-contacto.png" class="letraContato"> 
+               <img src="./content/ImagenN/contacto/letra-linea-1.png" class="letralinea1"> 
+               <img src="./content/ImagenN/contacto/letra-linea-2.png" class="letralinea2"> 
+               <img src="./content/ImagenN/contacto/letra-linea-3.png" class="letralinea3">            
+               
+                 <a onclick="cerrarEspacio()">
+                <img class="cerrar2" src="./content/ImagenN/botones/cerrar.png"
+                onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/>
+                </a>               
+                
+                <a href="tel:#">
+                    <img class="botonEspacio telefonoNV1" src="./content/ImagenN/botones/telefono.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/telefono.png'" onmouseout="this.src='./content/ImagenN/botones/telefono.png'"/>
+                </a>
+                <a href="tel:#">
+                    <img class="botonEspacio telefonoNV2" src="./content/ImagenN/botones/telefono.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/telefono.png'" onmouseout="this.src='./content/ImagenN/botones/telefono.png'"/>
+                </a>
+                <a href="tel:#">
+                    <img class="botonEspacio telefonoNV3" src="./content/ImagenN/botones/telefono.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/telefono.png'" onmouseout="this.src='./content/ImagenN/botones/telefono.png'"/>
+                </a>
+                <a href="mailto:#" target="_blank">
+                    <img class="botonEspacio correoNV" src="./content/ImagenN/botones/e-mail.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/correo.png'" onmouseout="this.src='./content/ImagenN/botones/e-mail.png'"/>
+                </a>  
+                 <a href="https://api.whatsapp.com/send?phone=+#">
+                    <img class="botonEspacio whatsappNV" src="./content/ImagenN/botones/whatsapp.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                </a>
+                
+                <!--<a href="mailto:asesorate@businessarmor.com.mx">
+                    <img class="botonEspacio correo2" src="./Imagen/botones/mail.png" />
+                </a> -->
+                
+            </div>
+
+            <!-- <div class="espacioUbicacion">
+                <img class="fondoR" src="./content/Imagen/fondoRYC1.png" />
+                <a onclick="validainfo()">
+                    <img class="cerrarC" src="./content/Imagen/botones/cerrar2.png" />
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5215535667572&text=¡Hola,%20me%20gustaría%20recibir%20una%20Asesoría%20Integral%20para%20mi%20negocio!" target="_blank">
+                    <img class="botonEspacio whatsapp" src="./Imagen/botones/javier-whats.png" />
+                </a>  
+                <a href="tel:5535667572">
+                    <img class="botonEspacio telefono" src="./Imagen/botones/javier-telefono.png" />
+                </a>
+                <a href="mailto:jponce@businessarmor.com.mx" target="_blank">
+                    <img class="botonEspacio correo" src="./Imagen/botones/javier-mail.png" />
+                </a>
+            </div>
+            
+            <div class="espacioUbicacion2">
+                <img class="fondoR" src="./Imagen/fondoredes.png" />
+                <a onclick="validainfo()">
+                    <img class="cerrarC" src="./Imagen/botones/cerrar2.png" />
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5215554144394&text=¡Hola,%20me%20gustaría%20recibir%20una%20Asesoría%20Integral%20para%20mi%20negocio!" target="_blank">
+                    <img class="botonEspacio whatsapp" src="./Imagen/botones/jesus-whats.png" />
+                </a>  
+                <a href="tel:5554144394">
+                    <img class="botonEspacio telefono" src="./Imagen/botones/jesus-telefono.png" />
+                </a>
+                <a href="mailto:jmartinez@businessarmor.com.mx" target="_blank">
+                    <img class="botonEspacio correo" src="./Imagen/botones/jesus-mail.png" />
+                </a>
+            </div>
+ -->
+            <div class="espacioRedes">
+        <!--        <img class="fondoR" src="./content/Imagen/fondoRYC.png" /> -->
+                <a onclick="cerrarEspacio()">
+                   <img class="cerrarC" src="./content/ImagenN/botones/cerrar.png"
+                   onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/></a>
+                   
+                    <a href="https://www.facebook.com/ideen4all.publicidad/" target="_blank">
+                        <img class="botonEspacio facebook" src="./content/ImagenN/botones/facebook.png"
+                        onmouseover="this.src='./content/ImagenN/botones/cambio de color/facebook.png'" onmouseout="this.src='./content/ImagenN/botones/facebook.png'"/>
+                    </a>
+                    <a href="https://www.instagram.com/ideen4all/" target="_blank">
+                        <img class="botonEspacio instagram" src="./content/ImagenN/botones/instagram.png"
+                        onmouseover="this.src='./content/ImagenN/botones/cambio de color/instagram.png'" onmouseout="this.src='./content/ImagenN/botones/instagram.png'"/>
+                    </a>                   
+                    <a href="https://www.youtube.com/channel/UCXZ2h3OSajzdrnoV1PVqRxA" target="_blank">
+                       <img class="botonEspacio youtube" src="./content/ImagenN/botones/youtube.png"
+                       onmouseover="this.src='./content/ImagenN/botones/cambio de color/yoputube.png'" onmouseout="this.src='./content/ImagenN/botones/youtube.png'"/>
+                    </a>
+                    <a href="https://www.tiktok.com/@ideen4all?lang=es" target="_blank">
+                        <img class="botonEspacio linkedin" src="./content/ImagenN/botones/tiktok.png"
+                        onmouseover="this.src='./content/ImagenN/botones/cambio de color/tiktok.png'" onmouseout="this.src='./content/ImagenN/botones/tiktok.png'" />
+                     </a>
+                     <!--<a href="https://twitter.com/" target="_blank">
+                        <img class="botonEspacio twiter" src="./content/Imagen/botones/twitter.png" />
+                     </a>-->
+        <!--            <a href="https://www.linkedin.com/" target="_blank">
+                       <img class="botonEspacio sitio" src="./content/Imagen/botones/linkedin.png" />
+                    </a>   -->
+            </div>
+            <div class="espacioConocenos">
+              <img src="./content/ImagenN/conoceme/fondo.png" class="FondoSer">
+               <img src="./content/ImagenN/conoceme/logo-png.png" class="logoConoceme">
+               <img src="./content/ImagenN/conoceme/letras.png" class="letrasConoceme"> 
+                <a onclick="cerrarEspacio()">
+                        <img class="cerrar2" src="./content/ImagenN/botones/cerrar.png" 
+                        onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/>
+                </a>
+                
+              <!--  <div class="swiper-container"> 
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./content/ImagenN/conoceme/1.png" class="FondoSer"></div>
+                        
+                    </div>-->
+                    <!-- Add Arrows 
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <script src="./content/Extra/swiper.min.js"></script>
+                <script>
+                          var swiper = new Swiper('.swiper-container', {
+                            navigation: {
+                              nextEl: '.swiper-button-next',
+                              prevEl: '.swiper-button-prev',
+                            },
+                          });
+                </script>-->
+            </div>
+            
+            <div class="espacioServicios">
+             <!--  <img class="muestra" src="./content/ImagenN/servicios/1.jpg" /> -->
+                <a onclick="cerrarEspacio()">
+                    <img class="cerrar2" src="./content/ImagenN/botones/cerrar.png" 
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/>
+                </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/1.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/diseno-grafico/1.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/1.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/diseno-industrial/1.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/1.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/stands/1.png"/>
+               <!-- <div class="sliderContenedor">
+                    <img class="muestra" src="./content/ImagenN/servicios/1.jpg" />
+                    
+                </div>-->
+                
+                <a onclick ="ServiciosImpresion()">
+                    <img src="./content/ImagenN/servicios/conoce-mas.png" class="ServImpresion BotonesServicios">
+                </a>
+                
+                <a onclick="ServiciosDiseñoGrafico()">
+                    <img src="./content/ImagenN/servicios/conoce-mas.png" class="ServDiseño BotonesServicios">
+                </a>
+
+                <a onclick="ServiciosInteriorismo()">
+                    <img src="./content/ImagenN/servicios/conoce-mas.png" class="ServInteriorismo BotonesServicios">
+                </a>
+                <a onclick="ServiciosDisIndustrial()">
+                    <img src="./content/ImagenN/servicios/conoce-mas.png" class="ServDiseñoIndustrial BotonesServicios">
+                </a>
+                 
+                <a onclick="ServiciosIlustracion()">
+                    <img src="./content/ImagenN/servicios/conoce-mas.png" class="ServIlustracion BotonesServicios">
+                </a>
+                 
+                <a onclick="ServiciosStands()">
+                    <img src="./content/ImagenN/servicios/conoce-mas.png" class="ServSustratos BotonesServicios">
+                </a>
+                
+                 
+            </div>
+                <div class="ServiciosImpresion">
+             
+                    <a onclick="CerrarServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                    
+                    <a onclick="GalImpresion()">
+                        <img src="./content/ImagenN/botones/fotos.png" class="GaleImpresion BotonesServicios">
+                    </a>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=+#&text=¡Hola!%20podria%20darme%20más%20informacion%20del%20servicio%20de%20Impresión" target="_blank">
+                    <img class="BotonesServicios WhatsImpresion" src="./content/ImagenN/botones/whatsapp.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/2.png"/>
+                    
+     <!------------------------------------------botones impresion -------------------------------------------------------->
+                    
+                    <a onclick="ServiciosOffset()">
+                        <img src="./content/ImagenN/servicios/impresion/botones/offset.png" class="ServOffset BotonesServicios">
+                    </a>
+                    
+                    <a onclick="ServiciosCama()">
+                        <img src="./content/ImagenN/servicios/impresion/botones/cama-plana.png" class="ServCamara BotonesServicios">
+                    </a>
+                    
+                    <a onclick="ServiciosSerigrafia()">
+                        <img src="./content/ImagenN/servicios/impresion/botones/serigrafia.png" class="ServSerigrafia BotonesServicios">
+                    </a>
+                    
+                    <a onclick="ServiciosEcosolvente()">
+                        <img src="./content/ImagenN/servicios/impresion/botones/ecosolvente.png" class="ServEcosolvente BotonesServicios">
+                    </a>
+                    
+                    <a onclick="ServiciosLatex()">
+                        <img src="./content/ImagenN/servicios/impresion/botones/hp-latex.png" class="ServLatex BotonesServicios">
+                    </a>
+                    
+                    <a onclick="ServiciosCorte()">
+                        <img src="./content/ImagenN/servicios/impresion/botones/corte-y-grabado-laser.png" class="ServCorte BotonesServicios">
+                    </a> 
+    
+ <!------------------------------------------ fin botones -------------------------------------------------------->
+                    
+                </div>
+                
+                <div class="ServiciosDiseñoGrafico">
+             
+                    <a onclick="CerrarServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-azul-claro.png"/>
+                    </a>
+                    
+                     <a onclick="GalDisenoGrafico()">
+                        <img src="./content/ImagenN/botones/fotos.png" class="GaleDisenoGrafico BotonesServicios">
+                    </a>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=+#&text=¡Hola!%20podria%20darme%20más%20informacion%20del%20servicio%20de%20Diseño%20Grafico" target="_blank">
+                    <img class="BotonesServicios WhatsDiseño" src="./content/ImagenN/botones/whatsapp.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/diseno-grafico/2.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/diseno-grafico/3.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/diseno-grafico/4.png"/>
+
+                    
+                </div>
+                
+                <div class="ServiciosInteriorismo">
+             
+                    <a onclick="CerrarServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-rojo.png"/>
+                    </a>
+                    
+                    <a onclick="GalInteriorismo()">
+                        <img src="./content/ImagenN/botones/fotos.png" class="GaleInteriorismo BotonesServicios">
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+#&text=¡Hola!%20podria%20darme%20más%20informacion%20del%20servicio%20de%20Interiorismo" target="_blank">
+                    <img class="BotonesServicios WhatsInteriorismo" src="./content/ImagenN/botones/whatsapp.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/2.png"/>
+                    
+                </div>
+                
+                <div class="ServiciosDisIndustral">
+             
+                    <a onclick="CerrarServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-azul-fuerte.png"/>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+#&text=¡Hola!%20podria%20darme%20más%20informacion%20del%20servicio%20de%20Diseño%20Industrial" target="_blank">
+                    <img class="BotonesServicios WhatsDiseñoIndustrial" src="./content/ImagenN/botones/whatsapp.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                    </a>
+                    
+                    <a onclick="GalDisenoIndustrial()">
+                        <img src="./content/ImagenN/botones/fotos.png" class="GaleDisenoIndustrial BotonesServicios">
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/diseno-industrial/2.png"/>
+                    
+                </div>
+                
+                <div class="ServiciosIlustracion">
+             
+                    <a onclick="CerrarServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-vino.png" />
+                    </a>
+                
+                    <a onclick="GalIlustracion()">
+                        <img src="./content/ImagenN/botones/fotos.png" class="GaleIlustracion BotonesServicios">
+                    </a>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=+#&text=¡Hola!%20podria%20darme%20más%20informacion%20del%20servicio%20de%20Ilustracion" target="_blank">
+                    <img class="BotonesServicios WhatsIlustracion" src="./content/ImagenN/botones/whatsapp.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/2.png"/>
+                    
+                </div>
+                
+                 <div class="ServiciosStands">
+             
+                    <a onclick="CerrarServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=+#&text=¡Hola!%20podria%20darme%20más%20informacion%20del%20servicio%20de%20Stands%20y%20Displays" target="_blank">
+                    <img class="BotonesServicios WhatsSustratos" src="./content/ImagenN/botones/whatsapp.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                    </a>
+                    
+                    <a onclick="GalStands()">
+                        <img src="./content/ImagenN/botones/fotos.png" class="GaleStands BotonesServicios">
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/stands/2.png"/>
+                    
+                </div>
+                
+ <!-----------Galerias Servicios------------------------------------------------------------------------------------------------->
+                
+                <div class="GalImpresion">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+             <!--       <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/1.png"/> -->
+
+
+                    
+                </div>
+                
+                <div class="GalIlustracion">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-vino.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/1.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/2.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/3.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/4.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/5.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/6.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/7.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/8.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/9.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/10.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/11.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/12.png"/>
+
+                    
+                </div>
+                
+                <div class="GalDisenoIndustrial">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-azul-fuerte.png" />
+                    </a>
+                
+             <!--       <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/1.png"/> -->
+
+
+                    
+                </div>
+                
+                <div class="GalDisenoGrafico">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-azul-claro.png" />
+                    </a>
+                
+             <!--       <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/1.png"/> -->
+
+
+                    
+                </div>
+                
+                <div class="GalStands">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+             <!--       <img class="muestra" alt="" src="./content/ImagenN/servicios/ilustracion/galeria/1.png"/> -->
+
+
+                    
+                </div>
+                
+                <div class="GalInteriorismo">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-rojo.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/1.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/2.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/3.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/4.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/5.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/6.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/7.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/8.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/9.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/10.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/11.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/12.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/13.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/14.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/15.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/16.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/17.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/18.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/19.png"/>
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/interiorismo/galeria/20.png"/>
+
+                    
+                </div>
+<!----------- Termina Galerias servicios------------------------------------------------------------------------------------->
+              
+<!----------- Servicios dentro de impresion ------------------------------------------------------------------------------------->
+               
+                <div class="ServiciosOffset">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/3.png"/>
+
+
+                    
+                </div>
+                
+                 <div class="ServiciosEcosolvente">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/4.png"/>
+
+
+                    
+                </div>
+                
+                <div class="ServiciosSerigrafia">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/5.png"/>
+
+
+                    
+                </div>
+                
+                <div class="ServiciosCama">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/6.png"/>
+
+
+                    
+                </div>
+                
+                <div class="ServiciosLatex">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/7.png"/>
+
+
+                    
+                </div>
+                
+                <div class="ServiciosCorte">
+             
+                    <a onclick="CerrarGaleriaServicios()">
+                        <img class="cerrar3" src="./content/ImagenN/servicios/botones-de-servicios/cerrar-amarillo.png" />
+                    </a>
+                
+                    <img class="muestra" alt="" src="./content/ImagenN/servicios/impresion/8.png"/>
+
+
+                    
+                </div>
+            
+            <!--<div class="espacioPoliticas">
+                <a onclick="cerrarEspacio()">
+                    <img class="cerrar2" src="./Imagen/botones/cerrar.png" />
+                </a>
+                <div class="pc"> <p> El usuario acepta expresamente estar sometido a los términos y condiciones de uso, así como a las que, en materia de privacidad, disponen las distintas redes sociales o plataformas donde Bufete Jurídico Contable Fiscal Libra S.A. de C.V. (en adelante Business Armor, Legal & Accounting) está presente, así como su sitio web, facultando a éste a utilizar los medios que las mismas redes le permite para informar a los usuarios sobre las diferentes actividades y servicios que realiza.
+
+Para mas información consulte nuestros términos y condiciones de uso y aviso de privacidad completo en el sitio web: </p></div>
+            </div>-->
+            
+            
+            <!-- Compartir -->
+            <div class="espacioCompartir">
+                <img src="./content/ImagenN/compartir/fondo.jpg" class="BCompartir">
+                <img src="./content/ImagenN/compartir/letras.png" class="letrasCompartir">
+                <a onclick="cerrarEspacio()">
+                    <img class="cerrar" src="./content/ImagenN/botones/cerrar.png"
+                     onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/></a>                    
+                    
+                    <a href="https://api.whatsapp.com/send?text=https://ideen4all.netlify.app/">
+                        <img class="whatsappCompartir" src="./content/ImagenN/botones/whatsapp.png"
+                        onmouseover="this.src='./content/ImagenN/botones/cambio de color/whatsapp.png'" onmouseout="this.src='./content/ImagenN/botones/whatsapp.png'"/>
+                    </a>
+                    <a href="http://www.facebook.com/sharer.php?u=https://ideen4all.netlify.app/">
+                        <img class="facebookCompartir" src="./content/ImagenN/botones/facebook.png"
+                        onmouseover="this.src='./content/ImagenN/botones/cambio de color/facebook.png'" onmouseout="this.src='./content/ImagenN/botones/facebook.png'"/>
+                    </a>
+                    <a href="mailto:?subject=Mi%20Tarjeta%20Negocio%20Inteligente&body=https://ideen4all.netlify.app/">
+                        <img class="correoCompartir" src="./content/ImagenN/botones/e-mail.png"
+                        onmouseover="this.src='./content/ImagenN/botones/cambio de color/correo.png'" onmouseout="this.src='./content/ImagenN/botones/e-mail.png'"/>
+                    </a>
+                    
+                    <img class="qr" src="./content/qr-code.png">
+            </div>
+
+            <!-- Galeria -->
+            <div class="espacio_rentacasa">
+            <img src="./content/ImagenN/galeria/fondo.jpg" class="FondoGaleria">
+            <img src="./content/ImagenN/galeria/letras-galeria.png" class="letrasGaleria"> 
+            <a onclick="cerrarEspacio()">
+            <img class="cerrar" src="./content/ImagenN/botones/cerrar.png"
+            onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'" />
+            </a>
+        
+            <a onclick="espacioGaleria()">
+            <img src="./content/ImagenN/botones/fotos.png" class="Galfoto"
+            onmouseover="this.src='./content/ImagenN/botones/cambio de color/fotos.png'" onmouseout="this.src='./content/ImagenN/botones/fotos.png'">
+            </a>
+            <a onclick="EspacioVideos()">
+            <img src="./content/ImagenN/botones/videos.png" class="Galvideo"
+            onmouseover="this.src='./content/ImagenN/botones/cambio de color/videos.png'" onmouseout="this.src='./content/ImagenN/botones/videos.png'">
+            </a> 
+     <!--       <a onclick="EspacioTestimonios()">
+            <img src="./content/ImagenN/botones/testimonios.png" class="Galtest"
+            onmouseover="this.src='./content/ImagenN/botones/cambio de color/testimonios.png'" onmouseout="this.src='./content/ImagenN/botones/testimonios.png'">
+            </a>   -->  
+       
+        </div>
+
+
+            <div class="espacioGaleria">
+                <a onclick="CerrarEspacio2()">
+                    <img class="cerrar2" src="./content/ImagenN/botones/cerrar.png"
+                    onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/>
+                    
+                </a>
+                <div class="sliderContenedor">
+                    <img class="muestra" src="./content/ImagenN/galeria/1.png" />
+                    <img class="muestra" src="./content/ImagenN/galeria/2.png" />
+                    <img class="muestra" src="./content/ImagenN/galeria/3.png" />
+                    <img class="muestra" src="./content/ImagenN/galeria/4.png" />
+                    <img class="muestra" src="./content/ImagenN/galeria/5.png" />
+                    <img class="muestra" src="./content/ImagenN/galeria/6.png" />
+                    <img class="muestra" src="./content/ImagenN/galeria/7.png" />
+                    <img class="muestra" src="./content/ImagenN/galeria/8.png" />
+                  
+        
+
+                </div>
+                </div>
+                
+                <div class="EspacioVideos">
+                 <a onclick="CerrarEspacio2()">
+                  <img class="cerrar2" src="./content/ImagenN/botones/cerrar.png"
+                  onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/>
+                  <img class="muestra" src="./content/ImagenN/conoceme/fondo.png" />
+                  
+                 </a>
+                   <!--     <div class="video1">
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/D_0xeBo6zWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      
+                        <div class="video">
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/OL3ys5d8gds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      
+                        <div class="video">
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/agRl31ABnuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>  -->
+                    
+               </div>
+                <!--div class="sliderContenedor">
+                    <img class="muestra" src="./Imagen/slider/1.jpg" />
+                    <img class="muestra" src="./Imagen/slider/2.jpg" />
+                    <img class="muestra" src="./Imagen/slider/3.jpg" />
+                </div-->
+                       
+                <div class="EspacioTestimonios">
+                 <a onclick="CerrarEspacio2()">
+                  <img class="cerrar2" src="./content/ImagenN/botones/cerrar.png"
+                  onmouseover="this.src='./content/ImagenN/botones/cambio de color/cerrar.png'" onmouseout="this.src='./content/ImagenN/botones/cerrar.png'"/>
+                  <img class="muestra" src="./content/ImagenN/conoceme/fondo.png" />
+                  
+                 </a>
+                   <!--     <div class="video1">
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/D_0xeBo6zWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      
+                        <div class="video">
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/OL3ys5d8gds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      
+                        <div class="video">
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/agRl31ABnuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>  -->
+                    
+               </div>
+                        
+
+        </div>
+    </div>
+    <script>
+        function validainfo(){
+          cerrarEspacio()
+          espacioContacto()
+        }
+    </script>
+    <script>
+        if (navigator.serviceWorker.controller) {
+            console.log("Active service worker found");
+        } else {
+            navigator.serviceWorker.register("./sw.js", {scope: "./"})
+            .then(function (reg) {
+            console.log("Service worker  registered");
+            });
+        }
+    </script> 
+</body>
+</html>

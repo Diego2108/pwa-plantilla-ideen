@@ -1,0 +1,44 @@
+{
+    "name": "Ideen4all",
+    "short_name": "Ideen4all",
+    "description": "Aplicacion Web Progresiva",
+    "background_color": "#000",
+    "theme_color": "#fff",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html",
+    "scope": "./",
+    "lang": "es-MX",
+	"icons": [
+        {
+			"src": "/content/imagenN/icono/android-chrome-48x48.png",
+			"sizes": "48x48",
+			"type": "image/png"
+		},
+        {
+			"src": "./content/imagenN/icono/android-chrome-96x96.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		},
+        {
+			"src": "./content/imagenN/icono/android-chrome-128x128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+        {
+			"src": "./content/imagenN/icono/ms-touch-icon-144x144-precomposed.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "./content/imagenN/icono/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "./content/imagenN/icono/android-chrome-256x256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}
